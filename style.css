@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto+Slab:100');
+
+.column{
+  padding: 10px;
+  width: 50%;
+}
+body{
+    background:linear-gradient(27deg, #212121 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #212121 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    text-align: center;
+    background-color:#212121;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size:50px;
+    text-align:center;
+    color:#36382E;
+    max-width:100%;
+}
+.tiny{
+    font-size:10px;
+}
+.sameline p{
+    text-align: justify;
+display: inline;
+}
+.sameline{
+    padding-top:8px;
+}
+.sameline h2{
+    text-align: justify;
+display: inline;
+    display: inline;
+    vertical-align: top;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size:20px;
+    text-align:center;
+    color:#36382E;
+    max-width:100%;
+}
+p{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+#flex{
+    display:flex;
+}
+#awsome{
+    height:auto;
+    width:70%;
+    border:10px double #36382E;
+    padding-top:15px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:16%;
+    background-color:#54C6EB;
+   
+}
+hr{
+    width:90%;
+    margin-top:-5px;
+    border:1px solid #36382E;
+}
+.hippo{
+    margin:20px;
+    max-width:60%;
+    padding-left:5%;
+}
+.hippo2{
+    margin:20px;
+    max-width:60%;
+    margin-right:10%;
+    transform: scaleX(-1)
+
+}
+#column1{
+    width: 50%;
+    margin-right:2px;
+    margin-bottom:10px;
+    border-right:2px solid #36382E;
+    height:auto;
+}
+#column2{
+    float:left;
+    margin-right:2px;
+    width: 50%;
+    height:auto;
+    border-left:2px solid #36382E;
+}
+form{
+    width: 100%;
+    color:#36382E;
+    display: inline-block;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid #131313;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    width:90%;
+    height:16%;
+    padding:10px;
+    font-size:20px;
+    color:#fd1b40;
+    text-align: center;
+    background-color: transparent;
+  }
+  textarea{
+      margin-bottom:10px;
+      width:91%;
+      height:18%;
+      padding:10px;
+      font-size:16px;
+      color:#fd1b40;
+      text-align: center;
+      background-color: transparent;
+      border:2px solid #36382E;
+
+  }
+  ::placeholder{
+      text-align: center;
+      color:rgba(54,56, 46, 0.5);
+  }
+  .button{
+      color:#ff3dc5;
+    width:45%;
+    height:10%;
+    font-family: 'Roboto Slab', serif;
+    font-size:40px;
+    background-color: transparent;
+    border:2px solid #36382E;
+    font-weight:bold;
+  }
+  .button:hover{
+      background-color:rgba(54,56, 46, 0.5);
+
+  }
+  .button:active{
+    background-color:rgba(54,56, 46, 0.5);
+transform: scale(0.9)
+}
+select{
+    background:transparent;
+    color:#36382E;
+}
+select option{
+   font-weight: bold;
+    background-color:#54C6EB;
+    border:2px solid #36382E;
+}
+.radio{
+    background:transparent;
+    color:pink;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+
+
+  @media only screen and (max-width: 1000px) {
+    #awsome {
+        width: 100%;
+        height:2000px;
+        box-sizing: border-box; 
+        border-radius: 0%;
+    }
+    h1{
+        font-size:30px;
+    }
+    #column1{
+        width: 100%;
+        border-right:0px solid #36382E;
+        box-sizing: border-box; 
+        
+    }
+    #column2{
+        width: 100%;
+        border-left:0px solid #36382E;
+        box-sizing: border-box; 
+    }
+    #flex{
+        display:block;
+        box-sizing: border-box; 
+    }
+    body{
+        margin:0px;
+        box-sizing: border-box; 
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    #awsome {
+        width: 100%;
+        height:3000px;
+        box-sizing: border-box; 
+        border-radius: 0%;
+    }
+    label{
+        font-size:30px;
+    }
+    h1{
+        font-size:3em;
+    }
+    h2{
+        font-size:2em;
+    }
+    #column1{
+        width: 100%;
+        border-right:0px solid #36382E;
+        box-sizing: border-box; 
+        
+    }
+    #column2{
+        width: 100%;
+        border-left:0px solid #36382E;
+        box-sizing: border-box; 
+    }
+    #flex{
+        display:block;
+        box-sizing: border-box; 
+    }
+    body{
+        margin:0px;
+        box-sizing: border-box; 
+    }
+    textarea{
+        font-size:30px;
+    }
+    ::placeholder{
+        color:rgba(54,56, 46, 0.5);
+    }
+}
